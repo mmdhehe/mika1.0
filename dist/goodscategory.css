@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+#topbox {
+  width: 1152px;
+  height: 46px;
+  border-bottom: 1px solid #e2e5e9;
+  margin: 0 auto;
+  background: pink; }
+
+#righttop {
+  width: 936px;
+  height: 162px;
+  background: #e2e5e9;
+  font-size: 12px;
+  color: #666666;
+  margin: 24px 34px 0 84px; }
+  #righttop #kinds {
+    width: 936px;
+    line-height: 40px;
+    border-bottom: 1px solid #cccccc; }
+    #righttop #kinds span {
+      padding: 0 10px; }
+  #righttop #hh span {
+    padding: 0 10px; }
+  #righttop #hh span:nth-of-type(1) {
+    color: red; }
+
+#rightbottom {
+  margin-left: 84px;
+  width: 936px;
+  display: flex;
+  flex-wrap: wrap; }
+  #rightbottom dl {
+    width: 202px;
+    height: 336px;
+    text-align: center;
+    padding: 54px; }
+    #rightbottom dl dt img {
+      display: block; }
+    #rightbottom dl #first {
+      text-align: center;
+      margin-left: -2px; }
+      #rightbottom dl #first #name {
+        font-size: 14px; }
+      #rightbottom dl #first #price {
+        font-size: 14px;
+        color: #dc4f45; }
+    #rightbottom dl #second {
+      margin-left: -2px;
+      display: flex;
+      align-items: center; }
+      #rightbottom dl #second #reduce {
+        width: 24px;
+        height: 24px;
+        border: 1px solid #a9a9a9;
+        text-align: center; }
+      #rightbottom dl #second #num {
+        width: 30px;
+        height: 24px;
+        border-top: 1px solid #a9a9a9;
+        border-bottom: 1px solid #a9a9a9;
+        text-align: center; }
+      #rightbottom dl #second #increase {
+        width: 24px;
+        height: 24px;
+        border: 1px solid #a9a9a9;
+        text-align: center; }
+      #rightbottom dl #second #buycart {
+        width: 90px;
+        height: 18px;
+        background: #e2e5e9;
+        font-size: 14px;
+        text-align: center;
+        line-height: 18px;
+        margin-left: 12px; }
+
+#rightbox {
+  position: relative;
+  left: 1047px;
+  top: -1590px; }
+  #rightbox #rightone {
+    width: 182px;
+    height: 36px;
+    background: #e2e5e9;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    line-height: 36px; }
+  #rightbox #righttwo {
+    margin: 0;
+    width: 180px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    border: 1px solid #e2e5e9; }
+    #rightbox #righttwo img {
+      display: block;
+      width: 150px;
+      height: 150px; }
+    #rightbox #righttwo #aname {
+      margin: 14px 0 8px; }
+    #rightbox #righttwo #aprice {
+      color: #dc4f45; }

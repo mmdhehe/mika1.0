@@ -1,0 +1,143 @@
+@charset "utf-8";
+//最上面的盒子(横线)
+*{margin: 0;padding: 0;}
+#topbox{
+	width: 1152px;
+	height:46px;
+	border-bottom:1px solid #e2e5e9 ;
+	margin: 0 auto;
+	background: pink;
+	}
+	
+ //分类
+#righttop{
+			width:936px;
+			height:162px;
+			background:#e2e5e9;
+			font-size:12px;
+				color:#666666;
+			margin:24px 34px 0 84px;
+			
+			#kinds{
+				width:936px;
+				line-height:40px;
+				border-bottom:1px solid #cccccc ;
+				span{
+					padding:0 10px;
+				}
+		   }
+		   #hh{
+			   
+			   span{
+			   	padding:0 10px;
+			   }
+			   span:nth-of-type(1){
+				   color:red;
+			   }
+		   }
+		}
+		#rightbottom{
+			margin-left:84px;
+			width:936px ;
+			display: flex;
+			flex-wrap: wrap;
+			dl{
+				width:202px;
+				height:336px;
+				text-align: center;
+				padding: 54px;
+				//border:1px solid #e2e5e9;
+			
+			dt img{
+				display: block;
+			
+			}
+		#first {
+			   text-align: center;
+			   margin-left:-2px ;
+			#name{
+				font-size:14px;
+			}
+			#price{
+				font-size:14px;
+				color:#dc4f45;
+			}
+		}
+		#second{
+			margin-left:-2px ;
+			display: flex;
+			align-items: center;
+			
+			#reduce{
+				width: 24px;
+				height: 24px;
+				border: 1px solid #a9a9a9;
+				text-align: center;
+			}
+			#num{
+				width: 30px;
+				height: 24px;
+				border-top: 1px solid #a9a9a9;
+				border-bottom: 1px solid #a9a9a9;
+				text-align: center;
+			}
+			#increase{
+				width: 24px;
+				height: 24px;
+				border: 1px solid #a9a9a9;
+				text-align: center;
+			}
+			#buycart{
+				width: 90px;
+				height: 18px;
+				background: #e2e5e9;
+				font-size: 14px;
+				text-align: center;
+				line-height:18px ;
+				margin-left: 12px;
+			}
+		}
+	  }
+		
+	}
+//最右侧
+#rightbox{
+	position: relative;
+	left: 1047px;
+	top: -1590px;
+	
+	#rightone{
+		width: 182px;
+		height: 36px;
+		background: #e2e5e9;
+		font-size: 14px;
+		margin: 0;
+		text-align: center;
+		line-height: 36px;
+	}
+	#righttwo{
+		margin: 0;
+		width:180px ;
+		height: 240px;
+		display: flex;
+		flex-direction:column ;
+		justify-content: center;
+		align-items: center;
+		font-size: 12px;
+		border:1px solid #e2e5e9;
+		img{
+			display: block;
+			width: 150px;
+			height: 150px;
+		}
+		#aname{
+			margin: 14px 0 8px;
+		}
+		#aprice{
+			color:#dc4f45;
+		}
+	}
+	
+}
+	
+

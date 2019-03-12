@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+#box {
+  width: 100%;
+  position: relative; }
+  #box #bigbox {
+    width: 1154px;
+    margin: 48px 0 0 138px;
+    display: flex;
+    position: relative; }
+    #box #bigbox #leftimg img {
+      height: 500px;
+      width: 500px; }
+    #box #bigbox #rightinformation {
+      margin: 34px 0 0 100px; }
+      #box #bigbox #rightinformation h1 {
+        font-weight: normal; }
+      #box #bigbox #rightinformation h1:nth-of-type(1) {
+        font-size: 30px; }
+      #box #bigbox #rightinformation h1:nth-of-type(2) {
+        font-size: 24px;
+        color: #d7523f;
+        font-weight: bolder;
+        margin: 20px 0; }
+      #box #bigbox #rightinformation h1:nth-of-type(3) {
+        font-size: 14px;
+        height: 36px; }
+        #box #bigbox #rightinformation h1:nth-of-type(3) span {
+          background: #e2e5ea;
+          padding: 6px; }
+      #box #bigbox #rightinformation h1:nth-of-type(4) {
+        font-size: 14px;
+        height: 36px;
+        margin-top: 10px; }
+        #box #bigbox #rightinformation h1:nth-of-type(4) span {
+          background: #e2e5ea;
+          padding: 6px; }
+      #box #bigbox #rightinformation #number {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        margin-bottom: 20px; }
+        #box #bigbox #rightinformation #number span {
+          background: #e2e5ea;
+          padding: 6px; }
+        #box #bigbox #rightinformation #number #reduce {
+          width: 24px;
+          height: 24px;
+          border: 1px solid #a9a9a9;
+          text-align: center; }
+        #box #bigbox #rightinformation #number #num {
+          width: 30px;
+          height: 24px;
+          border-top: 1px solid #a9a9a9;
+          border-bottom: 1px solid #a9a9a9;
+          text-align: center; }
+        #box #bigbox #rightinformation #number #increase {
+          width: 24px;
+          height: 24px;
+          border: 1px solid #a9a9a9;
+          text-align: center; }
+      #box #bigbox #rightinformation #buy {
+        display: flex; }
+        #box #bigbox #rightinformation #buy #once {
+          width: 168px;
+          height: 40px;
+          border: 1px solid #dc4f45;
+          background: #fbe7e6;
+          text-align: center;
+          line-height: 40px;
+          margin-right: 18px; }
+        #box #bigbox #rightinformation #buy #join {
+          width: 168px;
+          height: 40px;
+          border: 1px solid #dc4f45;
+          background: #dc4f45;
+          text-align: center;
+          line-height: 40px; }
+  #box #mark {
+    width: 400px;
+    height: 400px;
+    background: pink;
+    opacity: 0.5;
+    position: absolute;
+    left: 640px;
+    top: 200px;
+    z-index: 6; }

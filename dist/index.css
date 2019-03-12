@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+#top {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start; }
+  #top #left {
+    height: 30px;
+    width: 238px;
+    border: 1px solid #dddddd;
+    border-top: none;
+    border-left: none; }
+  #top #center {
+    width: 222px;
+    padding: 8px 0 0 34px;
+    font-size: 14px; }
+    #top #center span {
+      color: red; }
+  #top #right {
+    border: 1px solid #dddddd;
+    height: 30px;
+    width: 924px;
+    border-top: none;
+    border-right: none; }
+  #top h1 {
+    margin: 0px 0 0 770px;
+    font-size: 22px;
+    font-weight: normal;
+    color: red;
+    display: flex;
+    align-items: center; }
+    #top h1 img {
+      width: 60px;
+      height: 60px; }
+
+#nav {
+  width: 100%;
+  height: 60px;
+  background: #080808;
+  font-size: 18px;
+  display: flex;
+  justify-content: center; }
+  #nav span {
+    color: #ffffff;
+    height: 60px;
+    width: 100px;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 50px 0 50px; }
+
+#bigimgs {
+  width: 100%;
+  height: 590px;
+  position: relative; }
+  #bigimgs #one, #bigimgs #two, #bigimgs #three, #bigimgs #four {
+    display: block;
+    width: 100%;
+    height: 590px; }
+  #bigimgs #one, #bigimgs #two, #bigimgs #three {
+    display: none; }
+  #bigimgs #oleft {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    border: 10px solid red;
+    color: #FFFFFF; }
+  #bigimgs #oright {
+    position: absolute;
+    right: 30px;
+    top: 45%;
+    border: 10px solid red;
+    color: #FFFFFF; }
+
+#rightcase {
+  width: 34px;
+  height: 754px;
+  background: #080808;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100; }
+  #rightcase #rightimgone {
+    margin: 108px 0 0 4px; }
+  #rightcase #rightimgtwo {
+    margin: 20px 0 20px 4px; }
+  #rightcase #rightimgthree {
+    margin: 0 0 0 4px; }
+
+#qualitygoods {
+  width: 100%;
+  height: 966px;
+  background: #e2e5ea; }
+  #qualitygoods #go {
+    position: relative;
+    left: 242px;
+    top: -48px;
+    display: block;
+    width: 962px; }
+  #qualitygoods #circle {
+    position: relative;
+    left: 664px;
+    width: 108px; }
+  #qualitygoods #imgright {
+    position: relative;
+    left: -80px;
+    top: -32px; }
+  #qualitygoods #tuijian {
+    width: 278px;
+    height: 40px;
+    position: relative;
+    left: 572px;
+    top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 34px;
+    font-weight: bold;
+    color: #6b6361;
+    margin: 0 0 90px; }
+    #qualitygoods #tuijian img {
+      width: 20px;
+      height: 20px; }
+    #qualitygoods #tuijian span {
+      font-size: 24px;
+      color: #df5249; }
+  #qualitygoods #more {
+    width: 1154px;
+    height: 540px;
+    position: relative;
+    left: 130px;
+    background: #FFFFFF; }
+    #qualitygoods #more ul {
+      display: flex; }
+      #qualitygoods #more ul li {
+        list-style: none;
+        margin: 80px 10px 0 0; }
+        #qualitygoods #more ul li img {
+          display: block; }
+        #qualitygoods #more ul li #money {
+          font-size: 20px;
+          color: #de533e;
+          margin: 16px 0 16px 16px; }
+        #qualitygoods #more ul li #name {
+          font-size: 14px;
+          color: #576a66;
+          margin-left: 16px; }
+        #qualitygoods #more ul li #alot {
+          position: relative;
+          left: 16px;
+          top: 64px; }
+      #qualitygoods #more ul li:nth-of-type(1) {
+        margin: 0; }
+      #qualitygoods #more ul li:nth-of-type(2) {
+        margin-left: 30px; }
+  #qualitygoods #morecake {
+    width: 170px;
+    height: 42px;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 42px;
+    background: #e4857f;
+    position: relative;
+    left: 626px;
+    top: 34px; }
+
+#gogo {
+  position: relative;
+  left: -240px;
+  display: block; }
+
+#manyimgs {
+  width: 100%;
+  height: 834px; }
+  #manyimgs #fourimgstop {
+    display: flex;
+    position: relative;
+    left: 128px;
+    top: 56px; }
+    #manyimgs #fourimgstop img {
+      display: block; }
+  #manyimgs #fourimgsbottom {
+    display: flex;
+    position: relative;
+    left: 128px;
+    top: 66px; }
+    #manyimgs #fourimgsbottom img {
+      display: block; }
+
+#allcake {
+  width: 170px;
+  height: 42px;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 42px;
+  background: #e4857f;
+  position: relative;
+  left: 626px; }
+
+#pony {
+  width: 100%;
+  height: 218px;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  position: relative;
+  margin: 100px 0 20px 0;
+  text-align: center; }
+  #pony #smallpony {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center; }
+  #pony #p1 {
+    font-size: 18px;
+    color: #373425;
+    margin: 20px 0 14px; }
+  #pony #p2 {
+    font-size: 12px;
+    color: #9e9493; }
+  #pony #p3 {
+    width: 120px;
+    height: 28px;
+    background: #3897f1;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 28px;
+    margin: 16px 0 0 644px; }
+
+#bottom {
+  width: 100%;
+  height: 272px;
+  background: #f8f8f8;
+  display: flex;
+  font-size: 12px;
+  color: #656565; }
+  #bottom dl {
+    width: 190px;
+    height: 214px;
+    border-right: 1px solid #656565;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; }
+    #bottom dl dt {
+      margin: 22px 16px 30px 0; }
+    #bottom dl dd {
+      margin: 0 16px 10px 0; }
+  #bottom dl:nth-of-type(1) {
+    margin-left: 216px; }
+  #bottom ol {
+    margin: 16px 0 0 156px; }
+    #bottom ol li {
+      list-style: none;
+      margin-bottom: 6px; }
+      #bottom ol li #code {
+        width: 118px;
+        height: 118px;
+        margin-top: 22px; }
+
+#last {
+  width: 100%;
+  height: 122px;
+  background: #000000;
+  overflow: hidden; }
+  #last #pp {
+    margin: 38px 0 0 130px;
+    width: 1152px;
+    height: 34px;
+    background: #FFFFFF;
+    font-size: 12px;
+    color: #8f9595;
+    text-align: center;
+    line-height: 34px; }
+    #last #pp #phone {
+      font-size: 16px;
+      color: #eec247; }
